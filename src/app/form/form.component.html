@@ -1,0 +1,21 @@
+<div class="form-container">
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+        <div>
+            <label for="email">Escolha o tipo de conversão:</label>
+            <select name="tipo" [(ngModel)]="convercao.tipo" required >
+                <option value="BD">Binário para Decimal</option>
+                <option value="BO">Binário para Octal</option>
+                <option value="BH">Binário para Hexadecimal</option>
+              </select> 
+        </div>
+        <div>
+            <label for="name">Insira aqui o valor a ser convertido:</label>
+            <input type="text" id="valor" required [(ngModel)]="convercao.valor" name="valor">
+        </div>
+        <div *ngIf="valorConvertido">
+          <label id="resultado">Valor convertido: {{ valorConvertido }}</label>
+        </div>
+      
+      <button type="submit">Converter</button>
+    </form>
+  </div>  
