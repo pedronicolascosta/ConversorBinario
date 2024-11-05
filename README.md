@@ -1,6 +1,6 @@
-# Formulario Centralizado V1.0
+# Convertor Binário V1.0 💻👾
 
-Este projeto é um Convertor de Númeos Binários para números do tipo Decimal, Octal e Hexadecimal.
+Este projeto é um mini-sistema de Conversão de Númeos Binários para números do tipo Decimal, Octal ou Hexadecimal. 
 
 ## Tecnologias Utilizadas
 - Angular 13
