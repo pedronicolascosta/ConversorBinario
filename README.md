@@ -1,4 +1,4 @@
-# Convertor Binário V1.0 💻👾
+# Convertor Binário v1.0 💻👾
 
 Este projeto é um mini-sistema de Conversão de Númeos Binários para números do tipo Decimal, Octal ou Hexadecimal. 
 
