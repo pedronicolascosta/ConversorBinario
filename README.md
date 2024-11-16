@@ -26,10 +26,11 @@ Este projeto é um sistema simples para conversão de <b>números binários</b> 
    ```
    Isso iniciará o servidor em `http://localhost:4200/`
 
-5. **Inicie o servidor Node.js**
-   ```No terminal, navegue até o diretório do projeto e execute:
+5. **Inicie o servidor Node.js**<br>
+   No terminal, navegue até o diretório do projeto e execute:
+   ```
    git clone https://github.com/usuario/conversor-binario.git
-6. **Acesse o sistema**<br>
+7. **Acesse o sistema**<br>
    Abra o navegador e acesse o sistema via:
    ```
    http://localhost:4200/
