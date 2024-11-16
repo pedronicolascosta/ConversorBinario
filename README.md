@@ -30,7 +30,9 @@ Este projeto é um sistema simples para conversão de <b>números binários</b> 
    ```No terminal, navegue até o diretório do projeto e execute:
    git clone https://github.com/usuario/conversor-binario.git
 6. **Acesse o sistema**
-   ```Abra o navegador e acesse o sistema via:
+   Abra o navegador e acesse o sistema via:
+   ```
    http://localhost:4200/
+   ```
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a" alt="ConversorBinario"></p> 
