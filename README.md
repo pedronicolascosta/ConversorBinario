@@ -1,6 +1,6 @@
 # Conversor Binário v2.0 💻👾
 
-Este projeto é um sistema simples para conversão de números binários para diferentes bases: Decimal, Octal e Hexadecimal.
+Este projeto é um sistema simples para conversão de <b>números binários</b> para diferentes bases: <b>Decimal, Octal e Hexadecimal</b>.
 
 ## Tecnologias Utilizadas
 - **Angular 13**: Para a construção da interface do usuário.
