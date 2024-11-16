@@ -30,7 +30,7 @@ Este projeto é um sistema simples para conversão de <b>números binários</b> 
 5. **Inicie o servidor Node.js**<br>
    No terminal, navegue até o diretório do projeto e execute:
    ```
-   git clone https://github.com/usuario/conversor-binario.git
+   node server.js
 7. **Acesse o sistema**<br>
    Abra o navegador e acesse o sistema via:
    ```
