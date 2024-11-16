@@ -36,7 +36,6 @@ export class FormComponent {
       .then(data => {
         this.valorConvertido = data.valorConvertido || data;
 
-        // SweetAlert2 com botões personalizados
         Swal.fire({
           title: 'Conversão realizada com sucesso!',
           html: `Valor convertido: <b>${this.valorConvertido}</b>`,
@@ -45,8 +44,8 @@ export class FormComponent {
           confirmButtonText: 'Fechar',
           cancelButtonText: '<i class="fi fi-rr-copy"></i> Copiar valor',
           customClass: {
-            confirmButton: 'custom-confirm-button', // Estilo do botão de fechar
-            cancelButton: 'custom-cancel-button'   // Estilo do botão de copiar
+            confirmButton: 'custom-confirm-button', 
+            cancelButton: 'custom-cancel-button'  
           }
         }).then(result => {
           if (result.dismiss === Swal.DismissReason.cancel) {

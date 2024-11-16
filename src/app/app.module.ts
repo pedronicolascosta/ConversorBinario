@@ -1,24 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms'; // se você estiver usando formulários
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { FormComponent } from './form/form.component'; // Importe o FormComponent
+import { FormComponent } from './form/form.component'; 
 import { MenuComponent } from './menu/menu/menu.component';
-import { HomeComponent } from './home/home.component'; // Importe o HomeComponent
-import { AppRoutingModule } from './app-routing.module'; // Importe o módulo de rotas
+import { HomeComponent } from './home/home.component'; 
+import { AppRoutingModule } from './app-routing.module';
+import { FooterComponent } from './footer/footer.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FormComponent,  // Declare o FormComponent aqui
-    MenuComponent,  // Declare o MenuComponent aqui
-    HomeComponent   // Declare o HomeComponent aqui
+    FormComponent,  
+    MenuComponent,  
+    HomeComponent,
+    FooterComponent  
   ],
   imports: [
     BrowserModule,
-    FormsModule, // Certifique-se de que o FormsModule está importado se usar formulários
-    AppRoutingModule  // Inclua o AppRoutingModule para configurar o roteamento
+    FormsModule, 
+    AppRoutingModule  
   ],
   providers: [],
   bootstrap: [AppComponent]

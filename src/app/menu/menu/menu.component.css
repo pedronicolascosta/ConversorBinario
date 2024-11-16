@@ -4,7 +4,7 @@ nav {
     font-family: outfit;
     border: 0;
     display: flex;
-    justify-content: space-between; /* Espaço entre os dois grupos */
+    justify-content: space-between; 
     align-items: center;
     height: 10vh;
 }
@@ -15,7 +15,7 @@ nav ul {
     padding: 0;
     display: flex;
     width: 100%;
-    justify-content: flex-start; /* Alinha os itens à esquerda */
+    justify-content: flex-start; 
     align-items: center;
 }
 
@@ -24,8 +24,8 @@ nav ul li {
 }
 
 nav ul li a{
-    display: flex; /* Garante que o ícone e o texto fiquem lado a lado */
-    align-items: center; /* Centraliza verticalmente o ícone e o texto */
+    display: flex; 
+    align-items: center; 
     color: white;
     text-decoration: none;
     padding: 10px;
@@ -47,18 +47,15 @@ nav ul li a:hover {
 }
 
 nav ul li a i {
-    font-size: 20px; /* Aumenta o tamanho do ícone */
-    vertical-align: middle; /* Alinha o ícone verticalmente com o texto */
-    margin-right: 8px; /* Adiciona espaçamento entre o ícone e o texto */
+    font-size: 20px; 
+    vertical-align: middle; 
+    margin-right: 8px; 
 }
 
-
-
-/* Fazendo com que o primeiro item fique na esquerda e o restante à direita */
 nav ul li:first-child {
-    margin-right: auto; /* Empurra os itens seguintes para a direita */
+    margin-right: auto;
 }
 
 nav ul li:not(:first-child) {
-    margin-left: 20px; /* Espaço entre os itens à direita */
+    margin-left: 20px; 
 }

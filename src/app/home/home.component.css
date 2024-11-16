@@ -1,23 +1,19 @@
-/* home.component.css */
-
-/* O contêiner principal ocupa toda a altura da tela */
 .home {
   display: flex;
-  justify-content: center;  /* Centraliza os elementos horizontalmente */
-  align-items: center;  /* Centraliza os elementos verticalmente */
-  height: 90vh;  /* Ocupa toda a altura da tela */
+  justify-content: center;  
+  align-items: center; 
+  height: 84vh;  
   font-family: outfit;
 }
 
-/* Os lados (lado1 e lado2) vão ficar ao lado um do outro */
 .lado1, .lado2 {
   width: 100%;
-  height: 100%;  /* Ajusta a largura de cada lado */
-  display: flex;  /* Usa o modelo flexbox */
-  flex-direction: column;  /* Alinha os itens em coluna */
-  justify-content: center;  /* Centraliza verticalmente os itens dentro de cada lado */
-  align-items: center;  /* Centraliza horizontalmente os itens dentro de cada lado */
-  text-align: center;  /* Garante que o texto dentro dos lados também esteja centralizado */
+  height: 100%;  
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center;  
+  align-items: center;  
+  text-align: center;  
 }
 
 .lado1{
@@ -43,15 +39,14 @@ p {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1.1em;
-  transition: transform 0.3s ease; /* Definindo a transição */
-  transform: scale(1); /* Tamanho normal do botão */
+  transition: transform 0.3s ease; 
+  transform: scale(1); 
 }
 
 .btn-iniciar:hover {
   background-color: #88ba9d;
-  transform: scale(1.1); /* Faz o botão crescer no hover */
+  transform: scale(1.1); 
 }
-
 
 h2 {
   font-size: 2em;
@@ -62,6 +57,6 @@ h2 {
 
 span {
   display: inline-block;
-  color: #4C9F70;  /* Cor do texto sendo "digitado" */
+  color: #4C9F70;  
   font-weight: 600;
 }

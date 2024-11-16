@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 84vh;
   font-family: outfit;
   color: white;
   font-size: larger;
@@ -33,16 +33,6 @@ input, select {
   box-sizing: border-box;
 }
 
-/* Estilo do select */
-select {
-  background-color: white; /* Cor de fundo */
-  color: black; /* Cor do texto */
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-}
-
 button {
   width: 100%;
   padding: 10px;
@@ -55,33 +45,4 @@ button {
 
 button:hover {
   background-color: #88ba9d;
-}
-
-/* Estilo do alerta */
-.alert {
-  background-color: #f44336;
-  color: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.alert p {
-  margin: 0;
-}
-
-.alert button {
-  background-color: white;
-  color: #f44336;
-  border: none;
-  padding: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.alert button:hover {
-  background-color: #ffe6e6;
 }
