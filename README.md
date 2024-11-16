@@ -19,7 +19,7 @@ Este projeto é um sistema simples para conversão de <b>números binários</b> 
    git clone https://github.com/usuario/conversor-binario.git
 2. **Instale as dependências**
    ```No terminal, navegue até o diretório do projeto e execute:
-   git clone https://github.com/usuario/conversor-binario.git
+   npm install
 3. **Inicie o servidor de desenvolvimento do Angular**
    ```
    ng serve
