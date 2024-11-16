@@ -33,4 +33,4 @@ Este projeto é um sistema simples para conversão de números binários para di
    ```Abra o navegador e acesse o sistema via:
    http://localhost:4200/
 
-<p align="center"> ![ConversorBinario](https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a)</p> 
+<p align="center"> <img src="https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a" alt="ConversorBinario"></p> 
