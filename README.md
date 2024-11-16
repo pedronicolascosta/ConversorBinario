@@ -17,10 +17,11 @@ Este projeto é um sistema simples para conversão de <b>números binários</b> 
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/usuario/conversor-binario.git
-2. **Instale as dependências**
-   ```No terminal, navegue até o diretório do projeto e execute:
+2. **Instale as dependências**<br>
+   No terminal, navegue até o diretório do projeto e execute:
+   ```
    npm install
-3. **Inicie o servidor de desenvolvimento do Angular**
+4. **Inicie o servidor de desenvolvimento do Angular**
    ```
    ng serve
    ```
