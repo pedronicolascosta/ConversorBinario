@@ -14,6 +14,10 @@ export class FormComponent {
 
   valorConvertido: string | null = null;
 
+  verificaBinario(valor: string): boolean {
+    return /^[01]+$/.test(valor);
+  }
+
   onSubmit() {
     console.log('Form submitted!', this.convercao);
 
@@ -22,6 +26,18 @@ export class FormComponent {
         icon: 'error',
         title: 'Erro',
         text: 'Por favor, preencha todos os campos!',
+        customClass: {
+          confirmButton: 'custom-confirm-button',
+        }
+      });
+      return;
+    }
+
+    if (!this.verificaBinario(this.convercao.valor)) {
+      Swal.fire({
+        icon: 'error',
+        title: 'Erro',
+        text: 'O valor deve conter apenas os dígitos 0 e 1.',
         customClass: {
           confirmButton: 'custom-confirm-button',
         }
