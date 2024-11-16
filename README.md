@@ -32,4 +32,5 @@ Este projeto é um sistema simples para conversão de números binários para di
 6. **Acesse o sistema**
    ```Abra o navegador e acesse o sistema via:
    http://localhost:4200/
-![ConversorBinario](https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a)
+
+<p align="center"> ![ConversorBinario](https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a)</p> 
