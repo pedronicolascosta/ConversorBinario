@@ -2,17 +2,17 @@
 
 Este projeto é um sistema simples para conversão de <b>números binários</b> para diferentes bases: <b>Decimal, Octal e Hexadecimal</b>.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 🛠️
 - **Angular 13**: Para a construção da interface do usuário.
 - **TypeScript**: Linguagem de programação utilizada no desenvolvimento.
 - **Node.js**: Servidor para gerenciamento das requisições API.
 
-## Requisitos
+## Requisitos 🔍
 - **Node.js**: Versão 12.2 ou superior.
 - **NPM**: Gerenciador de pacotes do Node.js.
 - **Angular CLI**: Versão 13.
 
-## Instruções de Instalação e Execução
+## Instruções de Instalação e Execução 📋
 
 1. **Clone o repositório**
    ```bash
@@ -37,4 +37,5 @@ Este projeto é um sistema simples para conversão de <b>números binários</b> 
    http://localhost:4200/
    ```
 
+## Demonstração
 <p align="center"> <img src="https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a" alt="ConversorBinario"></p> 
