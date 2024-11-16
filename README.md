@@ -21,13 +21,15 @@ Este projeto é um sistema simples para conversão de números binários para di
    ```No terminal, navegue até o diretório do projeto e execute:
    git clone https://github.com/usuario/conversor-binario.git
 3. **Inicie o servidor de desenvolvimento do Angular**
-   ``` ng serve ```
+   ```
+   ng serve
+   ```
    Isso iniciará o servidor em `http://localhost:4200/`
 
-4. **Inicie o servidor Node.js**
+5. **Inicie o servidor Node.js**
    ```No terminal, navegue até o diretório do projeto e execute:
    git clone https://github.com/usuario/conversor-binario.git
-5. **Acesse o sistema**
+6. **Acesse o sistema**
    ```Abra o navegador e acesse o sistema via:
    http://localhost:4200/
 ![ConversorBinario](https://github.com/user-attachments/assets/d37bc6c3-2aed-411c-96f3-d66e3bb8c18a)
